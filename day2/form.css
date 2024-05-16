@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+     background: url(backg.avif);
+     background-size: cover;
+     color: #fff;
+     text-align: center;
+     margin: 25px 0;
+     padding: 25px 25px;
+}
+div{
+    margin-top: 20px;
+}
+.btn{
+    align-content: center;
+    padding: 5px 15px;
+    margin: 25px 0;
+    font-size:large;
+    width:125px;
+    height: 40px;
+}

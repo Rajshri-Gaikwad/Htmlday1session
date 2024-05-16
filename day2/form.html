@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+            <h1>Registration for Cat</h1>
+    <form action="#" method="post" class="regform">
+        <div>
+            <h4>Owner Details</h4>
+            <div>
+                <label>Owner Name:</label>
+                <input type="text" name="name" placeholder="Enter Your Name" required >
+            </div>
+            <div>
+                <label>Email Id:</label>
+                <input type="Email" name="email" placeholder="Enter Your Email Id" required>
+            </div>
+            <div>
+                <label>Mobile Number:</label>
+                <input type="number" name="contact" placeholder="Enter Your Mobile Number" required>
+            </div>
+            <div>
+                <label>User Name:</label>
+                <input type="text" name="uname" placeholder="Enter Username" minlength="3" maxlength="8" required> 
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="Enter Strong Password" minlength="8" maxlength="8" required>
+            </div>
+            <div>
+                <lable name="gender">Gender:</lable>
+                <input type="radio" name="gender">
+                <label>Male</label>
+                <input type="radio" name="gender">
+                <label>Female</label>
+                <input type="radio" name="gender">
+                <label>Other</label><br><br>
+            </div>
+            
+        </div>
+        <div>
+            <h4>Cat Details</h4>
+            <div>
+                    <label>Select Cat Name:</label>
+                    <select name="Cattype" required>
+                        <option value="Whiskers">Whiskers</option>
+                        <option value="Mittens">Mittens</option>
+                        <option value="luna">Luna</option>
+                        <option value="Simba">Simba</option>
+                    </select><br>
+                    <span>Tip:Select your Cat type/name </span>
+            </div>
+        <div>
+            <div>
+                <input type="checkbox" name="age">
+                <label for="age">Age:</label>
+                <input type="number" name="age" min="0" max="14" placeholder="Enter a Age of Cat">
+            </div>
+            <div>
+                <input type="checkbox" name="country">
+                <label for="country">Country:</label>
+                <input type="text" name="country" placeholder="Enter a origin country">
+             </div>
+             <div>
+                <input type="checkbox" name="color">
+                <label for="color"> Cat Color:</label>
+                <input type="text" name="color" placeholder="Enter your cat's color">
+            </div>
+            <div>
+                <input type="checkbox" name="breed">
+                <label for="breed">Breed of Cat:</label>
+                <input type="text" name="breed" placeholder="Enter your cat's Breed of cat">
+            </div>
+            <div>
+                <input type="checkbox" name="NickName">
+                <label for="breed">Nick Name:</label>
+                <input type="text" name="NickName" placeholder="Enter your cat's Nick Name">
+        </div>
+        
+    </div>
+                 <div> <button type="submit" class="btn">Submit</button> </div>
+    </form>    
+</body>
+</html>
